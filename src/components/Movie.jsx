@@ -29,9 +29,9 @@ const Movie = (props) => {
       console.log(loading);
     console.log(data);
   return (
-    <div className='container mt-4'>
-         <h1>MOST RECENT MOVIES</h1>
-        <div className='row'>
+    <div className='container mt-4 ' style={{justifyContent:'center'}}>
+         <h3 style={{fontWeight:'bold',paddingLeft:"47px",marginBottom:"20px"}}>MOST RECENT MOVIES</h3>
+        <div className='row justify-content-center'>
         {data.map((element)=>(
             
         <MyCard element={element} key={element.id}/>

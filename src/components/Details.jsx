@@ -35,7 +35,7 @@ const Details = (props) => {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={props.showdetails}></button>
                         </div>
                         <div className="modal-body">
-                            <div className="d-flex ">
+                            <div className="d-flex " >
                                 <div className="p-2">
                                     <img src={getUrl(props.info.backdrop_path)} style={imageStyle} alt="image" srcset="" />
                                 </div>

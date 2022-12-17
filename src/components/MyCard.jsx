@@ -16,7 +16,7 @@ const MyCard = (props) => {
     {
       showdetails&&(<Details info={props.element} showdetails={()=>setShowdetails(false)}/>)
     }
-   <div className="card d-flex flex-column m-2 p-1" style={{width:'12rem'}}>
+   <div className="card d-flex flex-column m-1 p-1" style={{width:'12rem'}}>
     <a onClick={getdetails}  className='btn btn-fix'>
 
    

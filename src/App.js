@@ -12,6 +12,14 @@ function App() {
     <div className="">
     <Navbar query={query} setQuery={setQuery}/>
     <Movie query={query}/>
+
+    <div className="pb-4 text-center">
+      <hr/>
+  <div className="card-body">
+    <p className="card-text">Copyright&#9400;All right reserved.2022 <br/>Made by: <span style={{fontWeight:'bold'}}>Devang Mishra</span> </p>
+   
+  </div>
+</div>
     </div>
   );
 }
